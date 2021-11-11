@@ -1,0 +1,427 @@
+// MATE ACADEMY YAHOO!!!
+
+// Обычная программа
+//У мене є сума грошей 10 грн 
+//let amount = 10;
+
+//Печеня коштує 7 грн
+//let cookiePrice = 7;
+//Цукерка коштує 10 грн 
+//let candyPrice = 3;
+
+//let rest = amount - cookiePrice; //остаток грошей
+//if (rest >= candyPrice) {
+  //  console. log ('money ')  
+//} else 
+
+//{
+  //console. log ('no money ')
+
+//}
+
+//console.log('5' + 2)
+
+
+
+//const fruits = '2';
+
+//const hasEmoney = fruits >=5
+//if (fruits >= 5) {
+  //console.log('You can make juice!');
+//} else {
+  //console.log('Please, get more fruits!');
+//}
+//console.log(typeof )
+
+//const myName = 'Sergey';
+//let myAge = 35;
+
+//myAge = 35 + 1;
+
+//let message = myName + ' '   
+
+//console.log(message)
+
+
+
+//function greeter (name, partOfTheDay) {
+
+  //return "Good " + partOfTheDay + ", " + name+ "!"
+
+//}
+
+//function greeter(name, partOfTheDay) {
+  // return `Good ${partOfTheDay}, ${name}!`
+  // return  partOfTheDay + name 
+ //}
+ 
+ //console.log(greeter('Vasya', 'sleep'));
+
+ //return "Good " + partOfTheDay + ", " + name+ "!"
+
+
+ 
+
+ //function createFunction1(name,lastName) {
+  
+
+     
+     
+  //return name + lastName 
+
+//}
+ 
+//console.log(createFunction1('ivn ','ivn'))
+
+//Сделайте функцию, которая принимает параметром число от 1 до 7, а возвращает день недели на русском языке.
+
+//function calculateDay (number) {
+
+//if (number === 7)
+
+//return 'Sunday'
+
+//if (number === 6)
+//return 'Saturday'
+
+//if (number === 5)
+
+//return 'Friday'
+
+//if (number === 4)
+//return 'Thursday'
+
+//if (number === 3)
+//return 'Wednesday'
+
+//if (number === 2)
+
+//return 'Tuesday'
+
+//if (number === 1)
+//return 'Monday'
+
+//else 
+//return 'Fuck off'
+
+//}
+//console.log(calculateDay(10))
+
+
+ //const a = 7 > 6 ? true : false; //Условный (тернарный) оператор
+//console.log(a)
+
+//Задача 1. Напишите функцию, которая принимает 2 числа и возвращает 1, 
+//если первое число больше, чем второе; -1, 
+//если первое число меньше, чем второе, и 0, если числа равны.
+
+//function calculateNumber (num1, num2 ){
+
+  //if (num1 > num2)
+  
+  //return num2 - num1 
+
+  //if (num1 < num2)
+  
+  //return num1 - num2
+  //else if (num1 === num2)
+  //return num1 - num2
+//}
+
+//console.log(calculateNumber(5, 5))
+
+
+//function calculateNumber (num1, num2 )
+
+
+//function calculateNumber (num1, num2 )
+//{
+
+  
+  //return num1 === num2  ? true : false; 
+
+//}
+
+//console.log(calculateNumber(5, 5))
+
+//const isReady = true 
+
+//isReady ? console.log( 'Все готово') : console.log( 'Все не готово')
+
+//function calculateAge(year) {
+
+//return 2020 - year 
+
+//}
+//console.log( calculateAge(1992))
+
+//const cars = ['Mazda', 'Mercedes', 'Ford']
+//console.log(cars)
+//console.log(cars[0])
+//cars [0] = 'toyota'
+//console.log(cars)
+//cars[3] = 'mazda'
+//console.log(cars)
+
+//К У Р С  Д Ж А В А МИНИН!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//1 Переменные
+//var name = 'pituh'
+//const lastName = 'Popov'
+//let age = 45
+//const isProgrammer = true
+
+//const _ = 'private'
+//const $ = 'somo value'
+
+//const withNum5 = '5'
+
+// 2 Как джава работает с типами данных (Мутирование)
+
+//const firstName = 'Сергей'
+//const age = 45
+
+//console.log(' Человека зовут ' + firstName, ' а его возраст составляет ' + age)
+
+//const firstCar = 'Corolla'
+//const modelCar = prompt('Введите название автомобиля')
+
+//alert (modelCar +''+ firstCar)
+
+// 3 Операторы
+
+//let currentYear = 2021
+//const birthYear = 1986
+
+//const a = 10
+//const y = 6
+
+
+
+//const age = currentYear + birthYear 
+
+//console.log(a-b)
+//console.log(a+b)
+//console.log(a*b)
+//console.log(a/b)
+//console.log(currentYear++)
+//console.log(currentYear)
+//console.log(--currentYear)
+//console.log(--currentYear)
+
+//let c = 32
+//c = c + a
+//c += y
+//console.log(c)
+
+// 4 Типы данных 
+
+//const isProgrammer = true
+//const name = "Anton"
+//const age = 38
+//let x
+//null
+
+//console.log(typeof isProgrammer)
+//console.log(typeof name)
+//console.log(typeof age)
+//console.log(typeof x)
+//console.log(null)
+
+// 5 Приоритет операторов
+
+//const fullAge = 35
+//const birthYear = 1986
+//const currentYear = 2021
+//const isFullAge = currentYear - birthYear >= fullAge // 35 >= 36 
+//console.log(isFullAge)
+
+// 6 Условные операторы
+//const courseStatus = 'fail' //ready,fail,pending
+
+//if (courseStatus === 'ready') {
+   // console.log('Курс уже готов и его можна проходить')
+//} 
+//else if (courseStatus === 'pending') {
+   // console.log('Курс пока находится в процессе разработки')
+//} else { console.log('Курс не получился') }
+
+//const num1 = 42 // number
+//const num2 = '42' //string
+
+
+//Тернарное выражение 
+//const isReady = true
+//if (isReady) {console.log('Its allready')}
+//else {console.log('Its not ready')}
+ 
+//isReady ? console.log('Its allready') : console.log('Its not ready')
+
+// 7 Булевая логика почитать!!!!
+
+// 8 Функции 
+
+//function calculateAge(year) {
+//    return 2021 - year 
+//}
+
+
+//console.log(calculateAge(1999))
+
+//function logInfoabout(name, year) {
+   // const age = calculateAge (year)
+    //if (age > 0)
+    //{console.log('Человек по имени ' + name + 'сейчас имеет возраст' + age)}
+//else {console.log('Вообще то это уже будущее')}
+
+//}logInfoabout('Сергей', 2022)
+
+// 9 Массивы 
+
+//const cars = ['Toyota', 'Mazda', 'ford']
+
+//console.log(cars.length)
+//console.log(cars)
+//console.log(cars[0])
+//console.log(cars[1])
+//console.log(cars[2])
+//cars[0] = 'Lexus'
+//cars[cars.length] = 'honda'
+//console.log(cars)
+
+// 10 Циклы и итерации 
+
+//const cars = ['Toyota', 'Mazda', 'ford', 'honda']
+
+//for (let i = 0; i < cars.length; i++) {
+
+
+//const car = cars [i] 
+//console.log(car)}
+
+//for (let car of cars){
+//    console.log(car)
+//}
+
+// 11 Обьекты 
+//const person = new Object () 
+//const person = {
+    //firstName: 'Anton',
+    //lastName: 'Popov',
+    //year: 1986,
+    //languages: ['Ru', 'En', 'Uk'],
+    //hasWife: false,
+    //greet: function (){
+    //console.log('greet for person')
+    //}
+//}
+//console.log(person.firstName)
+//console.log(person['lastName'])
+//const key = 'languages'
+//console.log(person[key])
+//person.hasWife = true
+//console.log(person)
+//person.isProgrsmmer = true
+//console.log(person)
+//person.greet()
+
+//РАБОТА С ФУНКЦИЯМИ !!!!!
+// Function Declaration 
+//function greet (name) {
+  // console.log ('Hello ', name )
+//}
+// Function Expression 
+
+//const greet2 = function greet2 (name ){
+  //console.log ('Hello2 ', name )
+//}
+//greet('lena ')
+//greet2('lena ')
+//greet2('lena ')
+
+
+//Анонимные функции
+//let counter = 0
+//setInterval(function()  {
+  //console.log( ++ counter)
+//}, timeOut ); 
+
+
+
+//Стрелочные функции
+
+//const arrow = (name) => {
+  //console.log('privet ', name )
+//}
+//arrow ('Vladilen')
+
+//const pow = num => num * num 
+
+//console.log(pow(6))
+
+//Параметры по умолчанию
+
+//const sum = (a,b=1) => a + b 
+//console.log(sum(41,5))
+
+//Замыкания 
+//function createMember (name) {
+
+  //return function (lastName) {
+    //console.log(name + lastName)
+  //}
+//}
+
+//const logWithLastName = createMember ('Vladilen')
+//console.log(logWithLastName('parashin'))
+
+// РАБОТА С МАССИВАМИ 
+
+
+//const cars  = ['Mazda', 'Ford', 'Mercedes']
+//const fib = [1,2,3,4,5,6]
+
+// Это функция
+
+
+// А Это метод 
+//cars.push('toyota')
+//cars.shift()
+
+//function addItemToEnd (){
+
+//}
+
+
+//console.log(cars.reverse())
+//console.log(cars)
+
+//Задача 1 
+//Строка наоборот 
+//const text = 'hello, world'
+//const reverseText = text.split('').reverse().join('')
+//console.log(reverseText)
+
+//const cars  = ['Mazda', 'Ford', 'Mercedes']
+//const fib = [1,2,3,4,5,6]
+
+//const index = cars.indexOf('Ford')
+//console.log(cars[index])
+//cars [index] = 'bmw'
+//console.log(cars)
+
+//Objects 
+
+
+//function makeStickers(detailsCount, robotPart) {
+  // write code here
+  
+  //return num.num2 
+
+//}
+//console.log(makeStickers(0,0 ))
+sayHello ('ljndfknklads');
+function sayHello (personName) {
+  console.log(`Hello, ${personName}`);
+}
+

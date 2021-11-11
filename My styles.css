@@ -1,0 +1,46 @@
+a {
+    color: red;
+    font-size: 16px;
+
+}
+div {color: black;}
+#vtoraya_ssilka{color:indigo;}
+.animal
+{color: white;
+background-color: green; 
+border:1px solid #323232;
+font-size: 20px;}
+.human {color: blue ;}
+.auto {color: blue;}
+.message1 
+{color: white;
+background-color: green; 
+border:1px solid #323232;
+font-size: 20px;}
+.message2 
+{color: white;
+background-color: red; 
+border:1px solid #323232;
+font-size: 20px;}
+.message3 
+{color: black;
+background-color: red; 
+border:1px solid #323232;
+font-size: 20px;}
+.message4
+{color: black;
+background-color: yellow; 
+border:1px solid #323232;
+font-size: 20px;}
+.message1:hover{border:10px solid #323232;}
+.message2:hover{border:10px solid #323232;}
+.message3:hover{border:10px solid #323232;}
+.message4:hover{border:10px solid #323232;}
+#test
+{background-color: seagreen;
+color:white;
+padding: 15px;
+margin: 15px;
+border: 7px solid red;}
+body 
+{background-image:url(images/2.jpg.webp);}

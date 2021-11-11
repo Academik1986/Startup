@@ -1,0 +1,643 @@
+// MATE ACADEMY YAHOO!!!
+
+// Обычная программа
+//let amount = 10;
+//let cookiePrice = 7;
+//let candyPrice = 8;
+
+//let rest = amount - cookiePrice;
+//if (rest >= candyPrice) {
+    //console. log ('I have enought money')  
+//} else 
+
+//{console. log ('I do not have enought money')}
+
+//console.log('5' + 2)
+
+// Работа с типами данных
+//let amount = 18;
+//const cookiePrice = 7;
+//const candyPrice = 8;
+
+//amount = amount - cookiePrice;
+
+//console.log('Amount is', amount);
+
+//const hasEnoughtMoney = amount >= candyPrice;
+
+//console. log ('has Enought Money', hasEnoughtMoney);
+
+//if (hasEnoughtMoney >= candyPrice) {
+    //console. log ('I have enought money')  
+//} else console. log ('I do not have enought money')  
+
+//console. log (typeof hasEnoughtMoney)
+
+//const x = undefined
+ 
+//const isSedan = true
+//console. log (typeof isSedan)
+
+//const expression = 10 * (7 + 8 - 11) / 4;
+
+//console.log(expression)
+
+//const myName = 'Sergey';
+//let myAge = 35;
+
+//myAge = 35 + 1;
+
+//let message = myName + ' is ' + myAge;
+//let message2 = myName + ` is ` + myAge;
+//let message3 = `${myName} is ` + myAge;
+
+//console.log(message3)
+
+//const a = 5;
+//const b = 3;
+//const name = 'Misha';
+
+//const message = `
+ // Hi, ${name}!,
+ // Welcome to the team.
+ // a + b = ${a + b}
+//`;
+//console.log(message)
+
+//console.log(`My age` + `12`)
+
+//let phrase = '';
+//console.log(phrase)
+
+//phare = 'Hello'
+//console.log(phare)
+
+//const backticks = `dddf`
+//console. log(backticks)
+
+//const a = 'Con';
+//const b = 'enation';
+//const c = 'cat';
+// write your code below
+//const resultString = a + b + c 
+//console. log(resultString)
+
+//Интерполяция строк 
+
+//const a = 'Hello';
+//const b = 'world';
+// write your code below
+//const resultString = `${a}, ${b}!`
+//const resultString = a + b 
+//console. log(resultString)
+
+//const hour = 17;
+//const minute = 10;
+//const second = 15;
+
+//const timeNow = `${hour} : ${minute} : ${second}`;  
+//const timeNow = 
+
+
+//console.log(hour)
+
+// Rectangle 5 x 8 
+
+//printRectangleInfo(6, 6)
+
+//function printRectangleInfo (a,b) {
+
+//const perimeter = 2 * a + 2 * b;
+//const square = a * b;
+
+//console.log('Rectangle', a, 'x', b );
+//console.log('Perimeter is', perimeter);
+//console.log('Perimeter is', square);
+//console.log ('------------------'); 
+
+//}
+
+// Rectangle 3 x 10 
+
+//printRectangleInfo(2, 8)
+
+//function square(x) {
+
+ //   return  x * x 
+
+//}
+
+//const demo =  square(3)
+
+//console.log(demo)
+
+//function sum(a, b) {
+    //return a + b;
+ // }
+
+  //const result = sum (5,5)
+  //console.log(result)
+
+
+ //function myFunction () {}
+ //hello( )
+
+ //function hello( ) {
+   //  const hello = 'Hello, world!'
+     //console. log(hello)
+// }
+
+//getString ()
+//function getString () {
+  //  const greeting = 'Hello, Mate Academy!'
+    //return greeting
+
+//}
+//getString ()
+//function getString () {
+   // const content = 'I am learning JavaScript'
+    //return content 
+//}
+
+//const result = getString ('I am learning JavaScript')
+
+//console.log(result)
+
+
+//greeter (name)
+//function greeter (name) {
+//    return name = `Hi, ${name}!`
+//}
+
+//console. log(name)
+
+
+
+//function greeter (name, partOfTheDay) {
+      
+    
+//return 
+    
+//} 
+
+
+//console.log(greeter)
+
+//function greeter(name, partOfTheDay) {
+    // return `Good ${partOfTheDay}, ${name}!`
+     //return "Good " + partOfTheDay + ", " + name+ "!"
+   //}
+   
+   //console.log(greeter('Paul', 'night'));
+   
+   //function double (num) {
+   
+    //return num*2
+   
+//}
+
+  //console.log(double)
+
+ //Условные операторы 
+  //const x = 10
+
+  //if (x > 5) {
+      //console.log(1)
+      //console.log(2)
+      //console.log(3)
+  //}
+  //console.log()
+
+  
+    
+//function canBuyBeer(age) {
+ //   if (age >= 18) {
+   //   return 'You can buy beer';
+
+    //} else if (age === 17) {
+      //return 'You can not buy beer';
+    //}
+  //}
+  
+  //function getTipsRating(amount) {
+   
+   
+        //if (amount === 0) {
+          //  return 'terrible';
+          //}
+        
+         // if (amount <= 10) {
+          //  return 'poor';
+       // }
+      
+       // if (amount <= 20) {
+          //  return 'good';
+         // }
+        
+         // if (amount <= 50) {
+           // return 'great';
+       // }
+    
+       // if (amount > 50) {
+            //return 'excellent';
+        //}
+     // }
+    
+//console.log(getTipsRating(50))
+
+//function calculateTaxes(income) {
+
+    //if (income <= 900) {
+        //return 900 * 0.02
+    //} 
+
+    //if (income <= 5000) {
+        //return 5000 * 0.03
+    //} 
+   // if (income <= 10500) {
+       // return 10500 * 0.05
+   // } 
+//}
+
+
+//console.log(calculateTaxes(900))
+//console.log(calculateTaxes(5000))
+//console.log(calculateTaxes(10500))
+
+//const getLargestExpressionResult = (a, b) => {
+    //const items = [a + b, a - b, a * b, a / b];
+    //let max = items[0];
+    //items.forEach((item) => {
+      //if (item > max) {
+        //max = item;
+     // }
+    //});
+    //return max;
+ // };
+  
+  
+  //const max = getLargestExpressionResult(5, 5);
+ 
+ // console.log(max);
+
+ //Циклы и итерации
+  
+ //function printNumbers(N) {
+    //for (let i = 1; i<=N; i = i + 1) {
+      //console.log(i);
+    //}
+  //}
+  
+
+  //function getDrinks(numberOfGuests) {
+   
+  //  for (let i = 1; i <= 1; i += 10)  
+  
+  //  console.log(numberOfGuests())
+//} 
+  
+//function getDrinks (numberOfGuests) {
+    //let sum = 0;
+    //for (let i = 0; i < numberOfGuests; sum += ++i);
+    //return sum;
+  //}
+  //console.log(getDrinks(3))
+
+  //function getDrinksWithStep (numberOfGuests, step) {
+  //let sum = 0;
+ 
+  //for (let i = 1; i <= numberOfGuests; i = i + step) {
+    //sum += i;
+  //}
+ 
+  //return sum;
+//}
+  
+  //console.log(getDrinksWithStep(2,1))
+
+  //function calculateProfit(amount, percent, period) {
+    //let sum = 0;
+    //03
+       //  for (let i = 0; i < period; i++) {
+    //04
+       //  let delta = amount * percent / 100;
+   // 05
+         //  sum += delta;
+   // 06
+          // amount += delta;
+  //  07
+         //}
+   // 08
+         //return Math.floor(sum);
+        //}    
+  // console.log(calculateProfit(10000,5,12))
+
+  //  Работа со троками 
+  
+  //const a = 'Michael'
+  //const b = 'John jhbjkkhkuy'
+
+
+  //const shortest = (a.length < b.length) ? a : b;
+
+  //console.log(shortest)
+
+  
+  //'use strict'
+  
+  //let str = 'abcde';
+  //str [2] = 'Q',
+  
+  
+  //console.log (str)
+      
+         //str. charAt(20)
+      
+
+                                   //Перебор строки по символьно 
+
+         //const word = 'Hello world';
+
+         //for (let i = 0; i < word.length; i++) {
+
+           // console. log (word[i]);
+         //}
+
+         //for (let letter of word) {
+
+           // console.log(letter);
+         //}
+
+                                        // Находим подстроку 
+
+//const word = 'abcdebc'
+//const part = 'bc'
+
+//console.log (
+        //word.includes(part),
+        //word.includes(part),
+        //word.lastIndexOf(part),
+        //word.startsWith(part),
+        //word.endsWith(part)
+//)
+
+                                            //Замена регистров строки 
+
+//const message  = 'Hello, world!'
+//let upperMessage = message.toUpperCase() 
+//let lowerMessage = message.toLowerCase() 
+
+//console.log(upperMessage); // HELLO, WORLD!
+//console.log(lowerMessage); // hello, world!
+//console.log(message)// 'Hello, world!'
+
+                                            //Поиск без учета регистра
+
+//const model = 'Apple iPhone 11';
+//const search = 'IpH';
+
+//const condition = model.toLowerCase().includes(search.toLowerCase());
+
+//if (condition) {
+
+   // console.log('Found')
+
+//}
+
+                                                    //Часть строки 
+
+//const message = '0123456789';
+
+//console.log(
+    //message.substr(3,5),  //34567
+    //message.substring(3,5), //34
+    //message.slice(3,5), //34
+
+
+//)
+
+//let result = message.slice(3,5) //  34 
+//let result = message.slice(3,-2) //  34567 
+//let result = message.slice(-6,-2) //  4567
+//let result = message.slice(1,-1) //  12345678
+//let result = message.slice(-1,1) //  буде пуста строка 
+//console.log(result)
+
+                                                //Превращение числа в строку        
+
+                                                
+//const x = 12345
+
+//console.log(x)
+
+//console.log(
+   // String (x),
+    //x.toString(),
+    //'' + x,
+    //`${x}`
+
+//)
+
+//Функции
+
+  
+// --- Rectangle 5 x 8
+  
+//printRectangleInfo (5,8)
+
+  //function printRectangleInfo(a,b) 
+  //{
+  
+    //const perimeter = 2 * a + 5 * b 
+    //const square = a * b 
+    //console.log ('Rectangle', a, 'x', b );
+    //console.log ('Perimeter is', perimeter);
+    //console.log ('Square is', square)
+    
+  //}
+  
+//hello () 
+    
+//function hello () {
+//console.log('Hello world')
+
+//}
+//getString()
+//function getString() {
+
+  //const greeting = 'Hello, Mate Academy!'
+  
+//return greeting
+
+//}
+
+//console.log(getString())
+//getString ()
+//function getString (){
+
+  //return 'I am learning JavaScript'
+
+//} 
+
+
+//const result = getString ()
+//console.log(result)
+
+//function getStringLength(input) {
+
+ 
+
+//return input.length 
+
+
+//}
+//console.log(getStringLength(''))
+
+//function removeVowels () {
+//const name = 'document'
+
+
+
+
+
+//function removeVowels(doc) {
+  //doc = doc.replace(/([aeiouyAEIOUY])/g, '')
+  //return doc
+//}
+//console.log(removeVowels('document'))
+//}
+
+//console.log (removeVowels('dcmnt')) 
+
+
+
+//function disemvowel(str) {
+  //str = str.replace(/([aeiouAEIOU])/g, '')
+  //return str;
+//}
+//console.log(disemvowel('I like my boss'))
+
+//function makeAbbr(words) {
+  //const makeAbbr = text => 
+    //return text.split(' ').map(i => i[0].toUpperCase()).join('.')
+  
+//}
+//console.log (makeAbbr(''))
+
+
+//makeAbbr('national aeronautics space administration')
+//function makeAbbr(words)
+//{
+  //  if (!words) { return ''; }
+
+    //const first_letter = function(x){ if (x) { return x[0]; } else { return ''; }};
+
+    //return words.split(' ').map(first_letter).join('').toUpperCase()
+//}
+
+//console.log(makeAbbr('national aeronautics space administration'))
+
+//function decryptMessage(message) {
+
+
+//message = message.split("").reverse().join("");
+//return message 
+//}
+//console.log (decryptMessage(''))
+
+//function isBlank(str) {
+  //return (!str || /^\s*$/.test(str));
+//}
+//console.log(isBlank(''))
+
+//const isStars = str => /^\*+$/.test(str);
+//let str = 'rotator';
+//alert(isStars('rotator'));
+
+//function isStarsWhile(str) {
+  //const  i = 0;
+
+  //while (i < str.length) {
+   // if (str.charAt(i) !== '') return false;
+   // i = i + 1;
+  //}  
+ 
+  //return true;
+
+//}
+//console.log(isStarsWhile(''))
+
+
+
+
+
+
+
+
+  
+
+ //function werewolfCheck(name) {
+  //if (name.startsWith('')) {
+    //return true;
+  //} else {
+    //return false;
+  //}
+//}
+
+
+
+
+
+//function isWerewolf(str) {
+  //var str = str.replace(/[^a-zA-Z0-9]+/gi, '').toLowerCase();
+  //return str == str.split('').reverse().join('');
+//}
+ 
+//console.log(isWerewolf('home'))
+
+
+//function getSuccessRate(statistic) {
+  //if (!statistic) {
+    //return 0;
+  //}
+
+  //let count = 0;
+  //for (const char of statistic) {
+   // if (char === '1') {
+     // count++;
+   // }
+  //}
+
+  //return Math.round((count / statistic.length) * 100);
+//}
+
+//console.log(getSuccessRate('11100'));
+
+//Массивы
+
+
+//const numbers = [10,11,12,13]
+
+//console.log(numbers)
+
+//for (let i = 0; i < numbers.length; i++) {
+
+ // console.log(numbers[i])
+//} 
+
+//for (let value of numbers) {
+  //console.log(value)
+//}
+
+//const numbers2 = new Array (10,11,12,13);
+
+//console.log(numbers2)
+
+const numbers = [10,11,12]
+
+console.log(numbers)
+
+numbers.push(100) 
+numbers [numbers.lehgth] = 0
+
+console.log(numbers)
